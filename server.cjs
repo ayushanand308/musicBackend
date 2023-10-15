@@ -10,7 +10,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "musiqueplayer.netlify.app", // Update with your React app's origin
+    origin: "https://musiqueplayer.netlify.app/", // Update with your React app's origin
     methods: ["GET", "POST"],
   },
 });
